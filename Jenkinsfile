@@ -1,7 +1,7 @@
 pipeline
  { agent any
    environment {
-     IMAGE = "ghcr.io/my-org/sample-node-app:${env.BRANCH_NAME}
+     IMAGE = "ghcr.io/my-org/sample-node-app:${env.BRANCH_NAME}"
    }
   stages{
     stage('Clone'){
